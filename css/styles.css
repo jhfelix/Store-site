@@ -45,11 +45,14 @@ a {
     padding-bottom: 4.5rem;
 } 
 .nav-item {
-    padding: 0 18px;
+    margin: 0% 0% 0% 5%;
+    
 }
 .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat';
+    font-weight: lighter;
+    color: white;
 }
 
 /* Donwload buttom */
@@ -60,6 +63,8 @@ a {
 /* title image */
 .title-image {
     width: 60%;
+    position: relative;
+    left: 40%;
 }
 /* feature box */
 
