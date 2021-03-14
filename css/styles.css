@@ -6,9 +6,18 @@ body {
 
 h1 {
     font-family: 'Montserrat-black', 'Montserrat';
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
-    
+}
+h2 {
+    font-family: 'Montserrat-black', 'Montserrat';
+    font-size: 3rem;
+    line-height:1.5;
+}
+h3 {
+    font-family: 'Montserrat';
+     font-weight: bold;
+
 }
 #title {
     background-color: #f37121;
@@ -16,13 +25,75 @@ h1 {
 .container-fluid {
     padding: 3% 15%;
 }
+a {
+    color: black;
+    font-family: 'Ubuntu';
+}
+
+.btn {
+    font-family: 'Montserrat';
+}
+/* Navigation bar */
 .navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2rem;
     font-weight: bold;
     color: black;
 }
-a {
-    color: black;
-    font-family: 'Ubuntu';
+
+.navbar {
+    padding-bottom: 4.5rem;
+} 
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+/* Donwload buttom */
+.download-buttom {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+    width: 60%;
+}
+/* feature box */
+
+#features {
+    padding: 7% 15%;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.dog-profile {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.icon {
+    color:#f37121;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: coral;
+}
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#f37121 ;
+    color: white;
+}
+#press {
+    background-color:#f37121 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 30px;
 }
