@@ -17,7 +17,7 @@ h2 {
 }
 h3 {
     font-family: 'Montserrat';
-     font-weight: bold;
+    font-weight: bold;
 
 }
 #title {
@@ -140,7 +140,7 @@ a {
     margin: 20px 10px;
 }
     
-}
+
 @media(max-width: 1028px) {
     #title {
         text-align: center;
